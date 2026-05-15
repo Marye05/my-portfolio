@@ -29,6 +29,7 @@ export default function Home() {
         </section>
         <Skills />
         <Projects />
+        <Contact />
         <Footer />
       </main>
     </div>
