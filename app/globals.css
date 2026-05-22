@@ -469,6 +469,13 @@ body {
   place-items: center;
 }
 
+.contact-image {
+  width: 100%;
+  height: auto;
+  max-width: 320px;
+  filter: drop-shadow(0 16px 24px rgba(20, 16, 40, 0.35));
+}
+
 .contact-orbit {
   position: absolute;
   width: 240px;
