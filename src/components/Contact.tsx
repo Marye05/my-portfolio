@@ -1,10 +1,19 @@
+import Image from "next/image";
+import contactImage from "@/src/assets/img/contact-img.svg";
+
 export default function Contact() {
     return (
         <section className="contact" id="contact">
             <div className="contact-inner">
                 <div className="contact-visual" aria-hidden="true">
-                    <div className="contact-orbit" />
-                    
+                    <Image
+                        src={contactImage}
+                        alt="Contact Visual"
+                        width={400}
+                        height={400}
+                        className="contact-image"
+                        priority
+                    /> 
                     
                 </div>
                 <div className="contact-content">

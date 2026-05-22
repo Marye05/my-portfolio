@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Banner from "@/src/Banner";
-import Contact from "@/src/Contact";
-import Footer from "@/src/Footer";
-import NavBar from "@/src/NavBar";
-import Skills from "@/src/Skills";
-import Projects from "@/src/Projects";
+import Banner from "@/src/components/Banner";
+import Contact from "@/src/components/Contact";
+import Footer from "@/src/components/Footer";
+import NavBar from "@/src/components/NavBar";
+import Skills from "@/src/components/Skills";
+import Projects from "@/src/components/Projects";
 
 export default function Home() {
   return (
